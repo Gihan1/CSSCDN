@@ -1,0 +1,194 @@
+/*! CSS Used from: https://stern-namen.de/ebay/templates/little-pearl/style-little-pearl.css */
+.row:before,.row:after{content:" ";display:table;}
+.row:after{clear:both;}
+.col-s-12,.col-m-5,.col-m-7,.col-l-6{float:left;padding:0;margin:0;position:relative;min-height:1px;}
+@media (min-width: 481px){
+.col-s-12{width:100%;}
+}
+@media (min-width: 768px){
+.col-m-5{width:41.66666667%;}
+.col-m-7{width:58.33333333%;}
+}
+@media (min-width: 952px){
+.col-l-6{width:50%;}
+}
+.auktion-container *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.auktion-container{max-width:1305px;margin:0 auto;height:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;font-family:'Roboto', sans-serif;font-size:16px;font-weight:400;font-style:normal;line-height:1.4;padding:5px 20px;}
+.auktion-container strong{font-weight:500;}
+@media (max-width:600px){
+.auktion-container{padding:5px 7px;}
+}
+@media (max-width:481px){
+.auktion-container{padding:5px 0;}
+}
+.auktion-container h1{margin:20px 0 35px 0;font-variant:normal;font-size:30px;font-weight:400;font-family:'Oswald', sans-serif;text-align:left;text-transform:uppercase;}
+@media (max-width: 1030px){
+.auktion-container h1{font-size:29px;}
+}
+@media (max-width: 495px){
+.auktion-container h1{font-size:25px;}
+}
+.auktion-container h1::after{content:"";width:50px;height:4px;background:#BC4848;display:block;}
+.auktion-container h2{font-size:28px;font-weight:400;margin:30px 0 15px 0;font-weight:400;font-family:'Khand', sans-serif;text-align:center;}
+@media (max-width: 1030px){
+.auktion-container h2{font-size:24px;}
+}
+@media (max-width: 559px){
+.auktion-container h2{font-size:20px;}
+}
+.logotop{padding:0 15px;float:left;width:100%;display:block;background:#fff;}
+.logotop img{max-height:50px;max-width:100%;display:block;border:0px;margin-bottom:15px;margin-left:auto;margin-right:auto;}
+@media (max-width: 500px){
+.logotop img{width:76%;margin-left:12%;max-height:none!important;display:block;border:0px;margin-bottom:10px;}
+}
+.rownav{background:#BD4949;}
+.auktion-kategorie{padding:0px 20px;color:#fff;width:100%;font-size:17px;overflow:hidden;text-align:center;border-top:1px solid #fff;background:#fff;z-index:2;background:#454545;background:-webkit-repeating-linear-gradient(145deg, #454545, #454545 10px, #505050 10px, #505050 20px);background:repeating-linear-gradient(-55deg, #454545, #454545 10px, #505050 10px, #505050 20px);}
+.auktion-kategorie a{color:#fff;text-decoration:none;display:block;padding:5px 10px;}
+.auktion-kategorie a:hover{text-decoration:underline;}
+.auktion-kategorie ul{list-style-type:none;padding:0px;margin:0;position:relative;min-width:200px;padding:10px 5px;}
+.auktion-kategorie ul li{border:1px solid transparent;font-size:20px;color:#333;text-transform:uppercase;font-weight:500;color:#fff;font-family:'Khand', sans-serif;padding-top:4px;text-shadow:1px 1px #0b0b0b;border-right:1px solid #7e7e7e;display:inline-block;}
+.auktion-kategorie ul li:first-child{border-left:1px solid #7e7e7e;}
+@media (max-width: 790px){
+.auktion-kategorie ul li:nth-child(3){border-left:1px solid #7e7e7e;}
+.auktion-kategorie ul li{margin:3px 0;width:calc(50% - 5px);}
+}
+@media (max-width:490px){
+.auktion-kategorie ul li{width:100%;border-bottom:1px dashed #7e7e7e;border-top:0px;border-left:0px;border-right:0px;}
+.auktion-kategorie ul a:last-child{padding-bottom:15px;}
+.auktion-kategorie ul li:last-child{border-bottom:0px dotted red;}
+.auktion-kategorie ul li:nth-child(3){border-left:0px solid #7e7e7e;}
+.auktion-kategorie ul li:first-child{border-left:0px solid #7e7e7e;}
+}
+.werbeicons{width:100%;float:left;display:block;padding:10px 0px 15px 0px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.werbeicons-content h2{margin-top:55px;margin-bottom:0px;}
+.werbeicons-content{background:#fff;width:calc(25% - 10px);float:left;display:block;border:1px solid #cccccc;text-align:center;position:relative;overflow:hidden;}
+@media (max-width: 950px){
+.werbeicons-content{width:calc(50% - 5px);margin-bottom:10px;}
+}
+@media (max-width: 500px){
+.werbeicons-content{width:calc(1000% - 0px);margin-bottom:10px;}
+}
+.werbeicons-content span{text-align:center;color:#EFEFEF;display:block;background:#575757;border-radius:50%;width:50px;height:50px;margin-left:calc(50% - 25px);margin-right:calc(50% - 25px);z-index:1;position:absolute;top:0px;text-shadow:1px 1px #333;}
+.werbeicons-content:nth-child(1) span{padding-top:5px;font-size:42px;}
+.werbeicons-content:nth-child(2) span{padding-top:5px;font-size:42px;}
+.werbeicons-content:nth-child(3) span{padding-top:9px;font-size:36px;}
+.werbeicons-content:nth-child(4) span{padding-top:5px;font-size:42px;}
+.werbeicons-content::after{content:"";background:#575757;width:100%;left:0px;top:0px;display:block;height:25px;position:absolute;}
+.werbeicons-content p{padding:0px 15px 15px 15px;margin:0px;}
+.gallerie-und-beschreibung{padding:0;margin-bottom:25px;background:#fff;padding:15px;background:-moz-linear-gradient(top, #454545 1%, #fff 70%);background-image: linear-gradient( 109.5deg,  rgba(24,175,231,1) 11.2%, rgba(67,82,186,1) 74.6% );}
+@media (max-width:670px){
+.gallerie-und-beschreibung{background:#fff;}
+}
+.beschcontent{background:#fff;float:left;width:100%;}
+@media (max-width:766px){
+.beschcontent{background:transparent;}
+}
+@media (max-width:481px){
+.gallerie-und-beschreibung{padding:2px;}
+}
+.gallerie-wrapper{padding:25px;margin-top:20px;}
+@media (max-width:1000px){
+.gallerie-wrapper{padding-left:10px;}
+}
+@media (max-width:767px){
+.gallerie-wrapper{padding-left:0px;padding-right:0px;margin-bottom:20px;}
+}
+.gallerie-container{display:block;position:relative;width:100%;height:auto;float:left;}
+.gallerie-container img{width:100%;height:auto;-webkit-transition:350ms;transition:350ms;box-shadow:0 0 4px #414141;-webkit-box-shadow:0 0 4px #414141;-moz-box-shadow:0 0 4px #414141;border:3px solid #fff;}
+.auktion-beschreibung{border:1px solid #fff;padding:18px 25px;background:#fff;}
+.auktion-beschreibung h2{text-align:left!important;}
+@media (max-width:767px){
+.auktion-beschreibung{border:4px solid #575757;}
+}
+@media (max-width:471px){
+.auktion-beschreibung{padding:18px 20px;}
+}
+.extrainfo-container{width:100%;float:left;display:block;min-height:200px;border-top:1px dashed #d6d6d6;}
+.extrainfo-content h2{text-align:left!important;margin-top:0px;}
+.extrainfo-content{padding:30px 40px;width:100%;float:left;display:block;min-height:290px;background:#fff;}
+.extrainfo-content img{float:left;display:block;width:30%;height:auto;margin-right:30px;margin-bottom:15px;}
+@media (max-width: 900px){
+.extrainfo-content img{width:40%;}
+}
+@media (max-width: 900px){
+.extrainfo-content{padding:15px 15px;}
+}
+@media (max-width: 481px){
+.extrainfo-content img{width:100%;margin-right:0px;}
+}
+.auktion-footer{width:100%;float:left;position:relative;min-height:1px;padding:0 20px;background:#9B3333;display:block;color:#fff;border-top:1px solid #fff;border-bottom:1px solid #fff;overflow:auto;}
+@media (max-width:480px){
+.auktion-footer{padding:0;}
+}
+
+
+.auktion-copyright{width:100%;float:left;text-align:center;color:#333;font-size:14px;text-transform:uppercase;margin-bottom:20px;}
+.auktion-copyright span{background-image: linear-gradient( 109.5deg,  rgba(24,175,231,1) 11.2%, rgba(67,82,186,1) 74.6% );}
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css */
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.fa-clock-o:before{content:"\f017";}
+.fa-check-circle:before{content:"\f058";}
+.fa-info-circle:before{content:"\f05a";}
+.fa-user-circle:before{content:"\f2bd";}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxFIzIFKw.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxMIzIFKw.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxEIzIFKw.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxLIzIFKw.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxHIzIFKw.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxGIzIFKw.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:100;src:local('Roboto Thin'), local('Roboto-Thin'), url(https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgVxIIzI.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:300;src:local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format('woff2');unicode-range:U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format('woff2');unicode-range:U+1F00-1FFF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format('woff2');unicode-range:U+0370-03FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:200;src:local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-1h4Tvs9CE5Q.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:200;src:local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-1h4Ttc9CE5Q.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:200;src:local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-1h4TtM9CE5Q.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:200;src:local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-1h4Tus9C.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:300;src:local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-sh0Tvs9CE5Q.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:300;src:local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-sh0Ttc9CE5Q.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:300;src:local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-sh0TtM9CE5Q.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:300;src:local('Oswald Light'), local('Oswald-Light'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-sh0Tus9C.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:400;src:local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752HT8Ghe4.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:400;src:local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752Fj8Ghe4.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:400;src:local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752Fz8Ghe4.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:400;src:local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v16/TK3iWkUHHAIjg752GT8G.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:500;src:local('Oswald Medium'), local('Oswald-Medium'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-6hwTvs9CE5Q.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:500;src:local('Oswald Medium'), local('Oswald-Medium'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-6hwTtc9CE5Q.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:500;src:local('Oswald Medium'), local('Oswald-Medium'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-6hwTtM9CE5Q.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:500;src:local('Oswald Medium'), local('Oswald-Medium'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-6hwTus9C.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:600;src:local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-xhsTvs9CE5Q.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:600;src:local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-xhsTtc9CE5Q.woff2) format('woff2');unicode-range:U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:600;src:local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-xhsTtM9CE5Q.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Oswald';font-style:normal;font-weight:600;src:local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v16/TK3hWkUHHAIjg75-xhsTus9C.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:300;src:local('Khand Light'), local('Khand-Light'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bL5cGExbQe3_w.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:300;src:local('Khand Light'), local('Khand-Light'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bL5cGE-bQe3_w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:300;src:local('Khand Light'), local('Khand-Light'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bL5cGEwbQc.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:400;src:local('Khand Regular'), local('Khand-Regular'), url(https://fonts.gstatic.com/s/khand/v6/TwMA-IINQlQQ0bpTUnQPTA.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:400;src:local('Khand Regular'), local('Khand-Regular'), url(https://fonts.gstatic.com/s/khand/v6/TwMA-IINQlQQ0bpcUnQPTA.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:400;src:local('Khand Regular'), local('Khand-Regular'), url(https://fonts.gstatic.com/s/khand/v6/TwMA-IINQlQQ0bpSUnQ.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:500;src:local('Khand Medium'), local('Khand-Medium'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bKhcWExbQe3_w.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:500;src:local('Khand Medium'), local('Khand-Medium'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bKhcWE-bQe3_w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:500;src:local('Khand Medium'), local('Khand-Medium'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bKhcWEwbQc.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:600;src:local('Khand SemiBold'), local('Khand-SemiBold'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bKNdmExbQe3_w.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:600;src:local('Khand SemiBold'), local('Khand-SemiBold'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bKNdmE-bQe3_w.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Khand';font-style:normal;font-weight:600;src:local('Khand SemiBold'), local('Khand-SemiBold'), url(https://fonts.gstatic.com/s/khand/v6/TwMN-IINQlQQ0bKNdmEwbQc.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+@font-face{font-family:'FontAwesome';src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.eot#iefix&v=4.7.0') format('embedded-opentype'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
